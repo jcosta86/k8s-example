@@ -103,6 +103,7 @@ k8s-example-worker2         NotReady   <none>                 57s   v1.21.1
 ``` 
 
 Verificando informaçoes do contexto
+
 ```
 kubectl cluster-info --context kind-k8s-example
 ```
