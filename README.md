@@ -69,10 +69,10 @@ kubectl cluster-info --context kind-kind
 - Retorno
   ```
   Kubernetes control plane is running at https://127.0.0.1:44169
-CoreDNS is running at https://127.0.0.1:44169/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+  CoreDNS is running at https://127.0.0.1:44169/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 
-To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
-```
+  To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+  ```
 
  - Deletando clusters
 ```
@@ -103,6 +103,7 @@ k8s-example-worker2         NotReady   <none>                 57s   v1.21.1
 ``` 
 
 Verificando informaçoes do contexto
+
 ```
 kubectl cluster-info --context kind-k8s-example
 ```
